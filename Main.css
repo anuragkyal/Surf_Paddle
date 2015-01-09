@@ -1,1 +1,113 @@
+.container{
+  margin-left:70px;
+  margin-right: 50px;
+  position: relative;
+}
 
+.header{
+  background-image: url(Assets/header.jpg);
+  height: 525px;
+}
+.surf{
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  font-size: 14pt;
+  color: #083451;
+}
+.surfco{
+  position: absolute;
+  font-size: 72pt;
+  color: white;
+  top: 200px;
+  left: 200px;
+}
+.about{
+  position: absolute;
+  top: 20px;
+  right: 290px;
+  overflow: hidden;
+  font-size: 14pt;
+}
+.search{
+  position: absolute;
+  overflow: hidden;
+  top: 20px;
+  right: 215px;
+  font-size: 14pt;
+}
+
+.logo{
+  position: absolute;
+  top: 10px;
+  overflow: hidden;
+  left: 140px;
+}
+
+.topicon{
+  position: absolute;
+  overflow: hidden;
+  top: 20px;
+  right: 195px;
+}
+.ironyard{
+  position: absolute;
+  top: 315px;
+  left: 500px;
+}
+.textbox{
+  margin-left: 175px;
+  margin-right: 300px;
+  overflow: hidden;
+}
+h1{
+  font-size: 42pt;
+
+}
+.footer{
+  border-top: 1px solid grey;
+  padding-top: 0
+
+}
+.mostpopular{
+  text-align: center;
+}
+.bottomfooter{
+  background-color: #083452;
+  height: 100px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+.tiy{
+  margin-left: 165px;
+  vertical-align: center;
+}
+.nav{
+  position: right;
+  margin: 0;
+}
+.lady{
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.avatar{
+  float: right;
+  position: relative;
+}
+.rightcolumn{
+  float:right;
+  overflow: hidden;
+}
+.name{
+
+}
+.whoa{
+  width: 290px;
+  height: 100px;
+}
+.sidebarhead{
+  float: right;
+  overflow: hidden;
+}
