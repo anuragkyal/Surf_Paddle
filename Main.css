@@ -1,6 +1,4 @@
 .container{
-  margin-left:70px;
-  margin-right: 50px;
   position: relative;
 }
 
@@ -8,6 +6,7 @@
   background-image: url(Assets/header.jpg);
   height: 525px;
 }
+
 .surf{
   position: absolute;
   left: 200px;
@@ -15,6 +14,7 @@
   font-size: 14pt;
   color: #083451;
 }
+
 .surfco{
   position: absolute;
   font-size: 72pt;
@@ -22,6 +22,7 @@
   top: 200px;
   left: 200px;
 }
+
 .about{
   position: absolute;
   top: 20px;
@@ -56,13 +57,17 @@
   left: 500px;
 }
 .textbox{
-  margin-left: 175px;
-  margin-right: 300px;
+  width: 80%;
+  margin: 50px auto;
   overflow: hidden;
 }
 h1{
   font-size: 42pt;
 
+}
+
+.hea{
+  font-size: 42pt;
 }
 .footer{
   border-top: 1px solid grey;
@@ -88,16 +93,27 @@ h1{
   margin: 0;
 }
 .lady{
-  float: right;
   position: relative;
   overflow: hidden;
 }
-.avatar{
+.avatar-left{
+  position: relative;
+  width: 3%;
+}
+
+.avatar-right{
   float: right;
   position: relative;
 }
-.rightcolumn{
-  float:right;
+
+.left{
+   float: left;
+   width: 70%;
+}
+
+.rightcolumn{ 
+  text-align: center;
+  margin-left: 70%;
   overflow: hidden;
 }
 .name{
@@ -108,6 +124,10 @@ h1{
   height: 100px;
 }
 .sidebarhead{
-  float: right;
   overflow: hidden;
+}
+
+.footer img{
+  width: 25%;
+  float: left;
 }
